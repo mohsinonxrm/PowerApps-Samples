@@ -85,6 +85,11 @@ namespace DataverseWebApiPolly
         public string CertificateName { get; set; }
 
         /// <summary>
+        /// Dataverse Url
+        /// </summary>
+        public string OrgUrl { get; set; }
+
+        /// <summary>
         /// Reads the configuration from a json file
         /// </summary>
         /// <param name="path">Path to the configuration json file</param>

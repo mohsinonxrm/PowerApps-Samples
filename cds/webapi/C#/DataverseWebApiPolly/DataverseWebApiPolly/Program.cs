@@ -26,7 +26,7 @@ namespace DataverseWebApiPolly
                 ServicePointManager.Expect100Continue = false;
                 ServicePointManager.UseNagleAlgorithm = false;
 
-                await RunAsync();//.GetAwaiter().GetResult();
+                await RunAsync();
             }
             catch (Exception ex)
             {
